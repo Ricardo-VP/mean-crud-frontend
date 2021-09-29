@@ -3,9 +3,9 @@ interface Employee {
     office: string;
     position: string;
     salary: number;
-    createdAt: string;
-    updatedAt: string;
-    _id: string;
+    createdAt?: string; // optional
+    updatedAt?: string; // optional
+    _id?: string | undefined;  // optional
 }
 
 export default Employee;
