@@ -94,7 +94,8 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css"
+              "src/styles.css",
+              "bootswatch/dist/lux/boostrap.min.css"
             ],
             "scripts": []
           }
